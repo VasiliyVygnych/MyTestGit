@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     private lazy var lanel: UILabel = {
        let label = UILabel(frame: CGRect(x: 50, y: 50, width: 50, height: 50))
-        label.text = "Hello"
+        label.text = "hi"
         label.textColor = .black
         return label
     }()
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(lanel)
-        view.backgroundColor = .systemPink
+        view.backgroundColor = .gray
     }
 
 
